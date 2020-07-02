@@ -16,7 +16,7 @@ if [[ -f "cr.yaml" ]]; then
     echo "Removed cr.yaml"
 fi
 
-curl -o cr.yaml https://raw.githubusercontent.com/Dynatrace/dynatrace-oneagent-operator/$LATEST_RELEASE/deploy/cr.yaml
+curl -o cr.yaml https://raw.githubusercontent.com/Dynatrace/dynatrace-oneagent-operator/master/deploy/cr.yaml
 
 case $ENVIRONMENTID in
         '')
